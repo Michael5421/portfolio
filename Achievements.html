@@ -2,19 +2,19 @@
 <!--This code will add the following label to the tab at the top of the page-->
 <head>
     <title>
-        Portfolio - Home
+      Portfolio - Achievements
     </title>   
 </head>
-<!--This code add the h1 and h2 headers to the top of the page-->
+<!--This code add the h1 and h2 headers to the top of the page, as well as link to other webpages-->
 <h1>
     <a style="font-size: 30pt; padding-left: 47px; text-size-adjust:initial; top: 225px;"><img src="cooltext395141146425382.png" style="height:110px;"></img></a>
         <div class="logo">
             <img src="20211203_101311.jpg" alt="ProfilePicture" width:auto height=180px style="border-radius: 35px; float: left; border-width: 2px; border-style:solid; border-color: black;"></img>
         </div>
-        
+
         <button class="button button1"><a href="Michael Garcia's Resume.pdf" download style="padding:20px 20px;"><b><img src="404-4042053_small-inspection-png.png" style="height: 50px;"></img></b></a></button>
     </h1>
-    <li><a class ="active" href="Home.html">
+    <li><a class ="active" href="index.html">
         Home</a>
         <a class ="active" href="CurrentProjects.html">
         Projects</a>
@@ -25,31 +25,83 @@
         <a class ="active" href="ContactMe.html">
         Contact </a> </li>
 <h2>
-Welcome to my portfolio!
- </h2>
- <!--This is the body text describing the topic of this page-->
- <body><font>
-     <div id="frame">
-        <b>Take a video tour of my site!</b>
-        <br>
-         <video src="VideoTour.mp4" controls=true default="SiteVideoTour" style="width:880px; height:auto; text-align: center; border-radius: 10px;"></video>
-    <br>Hi! My name is Michael Garcia. I am currently enrolled at the University of the Incarnate Word and plan to get a double major in Cybersecurity and 
-    Computer Information Systems with a concentration in Programming. Ever since I joined my Cyber Patriots team at my high school, cybersecurity has enthralled 
-    me. From general indifference towards it from big companies, to most people being completely vulnerable without even knowing, cybersecurity is becoming more 
-    of a necessity by the day. Once I graduate from UIW, I plan to either get a higher degree in Cyber Security Systems at Georgia Tech, or pursue an internship 
-    from the FBI, whichever comes first. Please feel free to browse this website to learn more about what I have worked on in the past, a little more about me, as 
-    well as what I have accomplished!
-    </div></font></body>
+   Achievements
+</h2>
+<!--This is the table that lists the contents of the page in each category-->
+<body><font>
+    <img src="160-1609821_recent-student-achievements-you-winner-clipart.png" style="height:350px; float:left;"></img>
+    <br>
+    <table style="float: right;">
+        <tr>
+            <th>UIW</th>
+            <th>General</th>
+        </tr>
+        <td>-Acceptance into Honors Program<br>
+            -Fall 2020 Dean's List<br>
+            -Spring 2021 Dean's List</td>
+        <td>-188 hours of volunteer service completed<br>
+            -Scholarship received from completion of Cyber FastTrack CTF event<br>
+            -Presidential Scholarship received from UIW</td>
+    </table></font></body>
 <!--This code handles the styling of the h1, body, h2, and footer elements-->
 <!--background-color handles the backing color of each respective element, and the text-align aligns the text to its respective option-->
 <style>
-     h1{
+    h1{
         background-color: whitesmoke;
         text-align:center;
     }
     body{
         background-color: whitesmoke;
+        text-align:left;
         color:black;
+    }
+    font{
+        font-size: 30pt;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    h2{
+        background-color: cyan;
+        text-align:center;
+        color:black;
+        padding:7px;
+        border-right: 750px solid whitesmoke;
+        border-left: 750px solid whitesmoke;
+    }
+    footer{
+        text-align:center;
+        color:black;
+        position:absolute;
+        top: 930px;
+        left:500px;
+        right:500px;
+        bottom:400px;
+    }
+    h1{
+        color: black;
+    }
+    li{
+        float:justify;
+        list-style:none;
+        overflow:hidden;
+        margin:0;
+        padding:0;
+        border-right: 0px solid whitesmoke;
+        border-left: 0px solid whitesmoke;
+        text-align:center;
+        font:status-bar;
+        font-size: 13.7pt;
+        background-color: cyan;
+        padding:14px 14px;
+    }
+      /*this rule is to set the table style*/
+      table, td, th{
+        border: 4px solid cyan;
+    }
+    table{
+        border-collapse: collapse;
+        width: 1500px;
+        float: right;
+        background-color: white;
     }
     .button{
     background-color: #00aefe;
@@ -78,60 +130,9 @@ Welcome to my portfolio!
     color:black;
      vertical-align: right;
     }
-    font{
-        font-size: 17pt;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        text-align: center;
-    }
-    h2{
-        background-color: cyan;
-        text-align:center;
-        color:black;
-        padding:7px;
-        border-right: 750px solid whitesmoke;
-        border-left: 750px solid whitesmoke;
-    }
-    footer{
-        text-align:center;
-        color:black;
-        position:absolute;
-        top: 1100px;
-        left:500px;
-        right:500px;
-        bottom:400px;
-    }
-    h1{
-        color: black;
-    }
-    li{
-        float:justify;
-        list-style:none;
-        overflow:hidden;
-        margin:0;
-        padding:0;
-        font:status-bar;
-        font-size: 13.7pt;
-        border-right: 0px solid whitesmoke;
-        border-left: 0px solid whitesmoke;
-        text-align:center;
-        background-color: cyan;
-        padding:14px 14px;
-    }
-     /*This code is for the search bar at the top right of the page*/
-     input[type=text]{
-        width: 175px;
-        box-sizing: border-box;
-        border: 2px cyan;
-        border-radius: 50px;
-        font-size: 16px;
-        background-color: black;
-        background-position: auto;
-        background-repeat: no-repeat;
-        padding: 12px 20px 12px 40px;
-        transition: width 0.4s ease-in-out;
-        position: absolute;
-        right: 2%;
-        top:2%;
+    td{
+        height: 50px;
+        vertical-align: top;
     }
     /*defining the rule for columns*/
     .cdivider{
@@ -160,24 +161,8 @@ Welcome to my portfolio!
         color: black;
         border:5px;
     }
-    #frame { 
-        position: center; 
-        width: 1850px; 
-        height: 800px;
-        float:right;
-        font-size: 17pt;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        line-height: 50px;
-        padding: 10px;
-        background-color: white;
-        border-width: 8px;
-        border-radius: 50px;
-        border-style: solid;
-        border-color: cyan;
-        color: black;
-    }
 </style>
 <!--This code handles the footer of the page-->
 <footer>
-    <br><br><br><br><br> <b>© 2021 Michael Garcia. All rights reserved.</b>
+    <br><br><br> <b>© 2021 Michael Garcia. All rights reserved.</b>
  </footer>

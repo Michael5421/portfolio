@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<!--This code will add the following label to the tab at the top of the page-->
+<head>
+    <title>
+        Portfolio - Current Projects
+    </title>   
+</head>
+<!--This code add the h1 and h2 headers to the top of the page-->
+<h1>
+    <a style="font-size: 30pt; padding-left: 47px; text-size-adjust:initial; top: 225px;"><img src="cooltext395141146425382.png" style="height:110px;"></img></a>
+        <div class="logo">
+            <img src="20211203_101311.jpg" alt="ProfilePicture" width:auto height=180px style="border-radius: 35px; float: left; border-width: 2px; border-style:solid; border-color: black;"></img>
+        </div>
+
+        <button class="button button1"><a href="Michael Garcia's Resume.pdf" download style="padding:20px 20px;"><b><img src="404-4042053_small-inspection-png.png" style="height: 50px;"></img></b></a></button>
+    </h1>
+    <li><a class ="active" href="index.html">
+        Home</a>
+        <a class ="active" href="CurrentProjects.html">
+        Projects</a>
+        <a class ="active" href="Achievements.html">
+        Achievements</a>
+        <a class ="active" href="AboutMe.html">
+        About</a>
+        <a class ="active" href="ContactMe.html">
+        Contact </a> </li>
+<h2>
+    Projects
+</h2>
+<!--This is the body text describing the topic of this page-->
+<br>
+<body style="float: center; text-align: center;"><font>
+    <button class="buttons button2"><a href="Projects/Calculator/index.html" ><b><img src="calculator.png" style="height: 250px; vertical-align: middle; float: none; left: 500px;"></img></b></a></button>
+    <button class="buttons button3"><a href="Projects/Drums/index.html" ><b><img src="drums.png" style="height: 250px; vertical-align: middle; float: none; right: 500px; border-right: 500px;"></img></b></a></button>
+    <button class="buttons button2"><a href="Projects/TicTacToe/main_tictactoe.html" ><b><img src="tictactoe.jpg" style="height: 250px; vertical-align: middle; float: center; right: 500px;"></img></b></a></button>
+    <button class="buttons button3"><a href="Projects/Snake Game/index.html" ><b><img src="snake.png" style="height: 250px; vertical-align: middle; float: center; right: 500px;"></img></b></a></button>
+    <button class="buttons button2"><a href="Projects/Hangman/index.html" ><b><img src="hangman.png" style="height: 250px; vertical-align: middle; float: center; right: 500px;"></img></b></a></button>
+    <br></font></body>
+<!--This code handles the styling of the h1, body, h2, and footer elements-->
+<!--background-color handles the backing color of each respective element, and the text-align aligns the text to its respective option-->
+<style>
+    h1{
+        background-color: whitesmoke;
+        text-align:center;
+    }
+    body{
+        background-color: whitesmoke;
+        text-align:left;
+        color:black;
+    }
+    font{
+        font-size: 17pt;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .button{
+    background-color: #00aefe;
+    border:none;
+    color: #bbb;
+    padding: 0px;
+    text-align:right;
+    text-decoration:none;
+    display:inline-block;
+     font-size:16px;
+     cursor:pointer;
+     display:block;
+     margin-left: 1800px;
+    }
+    .buttons{
+    background-color: #00aefe;
+    border:none;
+    color: #bbb;
+    padding: 0px;
+    text-decoration:none;
+    display:inline-block;
+     font-size:16px;
+     cursor:pointer;
+    }
+    .logo{
+        display:inline-block;
+        vertical-align: left;
+        float:left;
+    }
+    .button:hover{
+     color:whitesmoke;
+     background-color:whitesmoke;
+    }
+    .button1{
+     background-color:whitesmoke;
+    color:black;
+     vertical-align: right;
+    }
+    .button2{
+     background-color:whitesmoke;
+    color:black;
+    float:inline-end;
+    vertical-align: left;
+    }
+    .button3{
+     background-color:whitesmoke;
+    color:black;
+    float:inline-end;
+    vertical-align: right;
+    }
+    h2{
+        background-color: cyan;
+        text-align:center;
+        color:black;
+        padding:7px;
+        border-right: 750px solid whitesmoke;
+        border-left: 750px solid whitesmoke;
+    }
+    footer{
+        text-align:center;
+        color:black;
+        position:absolute;
+        top: 930px;
+        left:500px;
+        right:500px;
+        bottom:400px;
+    }
+    h1{
+        color: black;
+    }
+    li{
+        float:justify;
+        list-style:none;
+        overflow:hidden;
+        margin:0;
+        padding:0;
+        border-right: 0px solid whitesmoke;
+        border-left: 0px solid whitesmoke;
+        text-align:center;
+        font:status-bar;
+        font-size: 13.7pt;
+        background-color: cyan;
+        padding:14px 14px;
+    }
+     /*This code is for the search bar at the top right of the page*/
+     input[type=text]{
+        width: 175px;
+        box-sizing: border-box;
+        border: 2px cyan;
+        border-radius: 50px;
+        font-size: 16px;
+        background-color: black;
+        background-position: auto;
+        background-repeat: no-repeat;
+        padding: 12px 20px 12px 40px;
+        transition: width 0.4s ease-in-out;
+        position: absolute;
+        right: 2%;
+        top:2%;
+    }
+    /*defining the rule for columns*/
+    .cdivider{
+                column-count: 5;
+                column-gap: 40px;
+                column-rule-style: solid;
+                column-width: 2px;
+                column-rule-color: lightblue;
+            }
+    /*this rule is to set the border in the navigation bar*/
+    li:last-child{
+        border-right:none;
+    }
+    /*to display the hover color as blue and text color as white*/
+    li a:hover{
+        color: whitesmoke;
+        background-color: aqua;
+        padding: 150px 150px;
+        text-decoration: none;
+    }
+    a{
+        text-decoration: none;
+        list-style:none;
+        text-align:center;
+        padding:150px 150px;
+        color: black;
+        border:5px;
+    }
+</style>
+<!--This code handles the footer of the page-->
+<footer>
+    <br><br><br> <b>© 2021 Michael Garcia. All rights reserved.</b>
+ </footer>
