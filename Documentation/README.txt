@@ -63,3 +63,11 @@ that my website contains, as many could be combined for easier viewing and navig
 for more choice to the person viewing it. I believe that my site is more visually appealing now that what I initially thought it out to be. As for weekly updates, you can view
 
 the above notes to see what I changed from assignment-to-assignment. It went through many iterations, which can be seen through my previous submissions.
+
+----------------------------------------------------------UPDATE v2.0 (Public Release)---------------------------------------------------------
+
+For this update, I have added new elements to the main page, such as a video tour and a new profile picture. In addition, I have also added projects that I have worked on in the 
+
+projects tab, which are symbolized by pictures. One of my projects, the Snake Game, was sourced from here: https://medium.com/writeabyte/snake-game-5aaeb80a261a. Please also take 
+
+a look at my comparison from my Midterm.
